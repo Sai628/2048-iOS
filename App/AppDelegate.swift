@@ -3,7 +3,7 @@
 //  2048
 //
 //  Created by Sai on 10/04/2017.
-//  Copyright © 2017 Sai. All rights reserved.
+//  Copyright © 2017 Sai628.com. All rights reserved.
 //
 
 import UIKit
@@ -17,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool
     {
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = GameViewController()
+        window?.makeKeyAndVisible()
+        
         return true
     }
     
