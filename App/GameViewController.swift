@@ -103,7 +103,7 @@ class GameViewController: UIViewController
         self.view.addSubview(rectLayout)
         
         let introLabel = UILabel(systemFontSize: 11, colorInt: (0xFF8C887B as Int64))
-        introLabel.text = "HOW TO PLAY: \nFling screen with your finger. When two tiles with the same number touch, they merge into once!\n-By Sai."
+        introLabel.text = "HOW TO PLAY: \nFling screen with your finger. When two tiles with the same number touch, they merge into one!\n-By Sai."
         introLabel.numberOfLines = 0
         self.view.addSubview(introLabel)
         
